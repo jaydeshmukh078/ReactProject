@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-import { incQnty, decQnty, cartDataRemove } from "../cartSlice";
+import { incQnty, decQnty, cartDataRemove } from "../CartSlice";
 import { useNavigate } from "react-router-dom";
 
 const MyCart = () => {
