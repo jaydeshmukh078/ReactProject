@@ -3,7 +3,7 @@ import "../css/Home.css";
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useDispatch } from 'react-redux';
-import { addTocart } from '../cartSlice';
+import { addTocart } from '../CartSlice';
 
 const Home = () => {
   const [mydata, setMydata] = useState([]);
