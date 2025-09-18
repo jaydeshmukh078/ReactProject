@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../css/NavBar.css";
-import logo from "../images/logo.png";
+import logo from "../Images/logo.png";
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import axios from "axios";
