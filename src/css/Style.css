@@ -1,0 +1,240 @@
+/* Overall top menu */
+#topmenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Logo */
+#logo img {
+  object-fit: contain;
+}
+
+/* Navbar */
+#mainmenu {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
+
+/* Right side button */
+#rightmenu {
+  text-align: right;
+}
+
+/* Custom Buttons */
+.btn-primary {
+  padding: 8px 18px;
+  background: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background: #0056b3;
+}
+
+.btn-secondary {
+  padding: 8px 18px;
+  background: #6c757d;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn-secondary:hover {
+  background: #545b62;
+}
+/* End of Top Menu */
+
+/* Header */
+#adminheader {
+  background: #000; /* Black */
+  color: #fff; /* White */
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #444;
+}
+
+#adminheader h1 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Wrapper */
+#adminwrapper {
+  display: flex;
+  min-height: calc(100vh - 70px);
+  background: #f4f4f4;
+}
+
+/* Left Sidebar Menu */
+#leftmenu {
+  width: 240px;
+  background: #111; /* Dark black */
+  color: white;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.menutitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.adminmenu {
+  display: block;
+  padding: 12px 15px;
+  text-decoration: none;
+  color: #ddd;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+.adminmenu:hover {
+  background: #fff;
+  color: #000;
+  font-weight: 600;
+}
+
+/* Right Data Section */
+#admindata {
+  flex: 1;
+  padding: 30px;
+  background: #fff;
+  border-left: 1px solid #ddd;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #adminwrapper {
+    flex-direction: column;
+  }
+
+  #leftmenu {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .adminmenu {
+    flex: 1;
+    text-align: center;
+  }
+}
+/* end of admin styles */
+
+.cart-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.cart-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.total {
+  text-align: right;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #222;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.cart-table th,
+.cart-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.cart-table th {
+  background: #f8f8f8;
+  font-weight: bold;
+}
+
+.cart-table img {
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.cart-name {
+  text-align: left;
+  font-weight: 500;
+  color: #444;
+}
+
+.qnty {
+  margin: 0 8px;
+  font-weight: bold;
+}
+
+.qty-btn {
+  background: gray;
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding: 4px 10px;
+  margin: 0 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.qty-btn:hover {
+  background: #555;
+}
+
+
+.delete-btn {
+  background: #ff4d4d;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-btn:hover {
+  background: #e60000;
+}

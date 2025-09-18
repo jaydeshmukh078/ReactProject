@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": "b64e",
+      "name": "shirt",
+      "brand": "Zara",
+      "category": "men",
+      "price": "5999",
+      "images": "http://res.cloudinary.com/dvkxq2jhu/image/upload/v1757696495/tbqluv4srvnupuijocco.png"
+    },
+    {
+      "id": "9907",
+      "name": "watch",
+      "brand": "Nike",
+      "category": "men",
+      "price": "59595",
+      "images": "http://res.cloudinary.com/dvkxq2jhu/image/upload/v1758114759/kofsgyzemrqhh58hbhwr.png"
+    },
+    {
+      "id": "3a01",
+      "name": "pent",
+      "brand": "Adidas",
+      "category": "kids",
+      "price": "748499",
+      "images": "http://res.cloudinary.com/dvkxq2jhu/image/upload/v1758176172/keg57mlofcgtwfhkmtpx.jpg"
+    }
+  ],
+  "admin": [
+    {
+      "id": "1",
+      "adminname": "ADMIN",
+      "adminid": "admin@gmail.com",
+      "password": "admin123"
+    }
+  ]
+}
